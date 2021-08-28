@@ -1,0 +1,33 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333
+}
+
+* {
+    /* ke thua tu  lopw chuwa  no */
+    box-sizing: inherit;
+}
+
+html {
+    /* hack */
+    font-size: 62.5%;
+    line-height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.app {
+    background: #eeeeee;
+}
+.grid {
+    /*width: 1500px;*/
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+.jumbotron {
+    border-top: 3px solid orangered;
+}
